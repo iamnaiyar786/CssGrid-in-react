@@ -1,0 +1,124 @@
+*{margin: 0%; padding: 0%; box-sizing: border-box;}
+
+
+.navbar{
+    background-color: rgb(253, 136, 136);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.page{
+    background-color: white;
+    margin: 0%;
+    padding: 10px;
+}
+
+.primary{
+    width: 100%;
+    color: aliceblue;
+    display: grid;
+    grid-template-rows: 220px 250px 200px 200px;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px 20px ;
+}
+
+.secondary{
+    width: 100%;
+    display: grid;
+    grid-template-rows:  200px 200px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top:-200px;
+}
+
+.main{
+    background-color: aqua;
+    grid-column: 1/-1;
+    margin-top: 30px;
+}
+
+.main img{
+    width: 100%;
+    height: 100%;
+}
+
+.second{
+    background-color: brown;
+    
+}
+.second img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.third{
+    background-color: yellow;
+
+}
+.third img{
+    width: 100%;
+    height: 100%;
+}
+.fourth{
+    background-color: green;
+    grid-row: 2/4;
+    grid-column: 3/4;
+}
+.fourth img{
+    width: 100%;
+    height: 100%;
+}
+.fifth{
+    background-color: white;
+    grid-column: 1/3;
+    color: black;
+    text-align: center;
+}
+
+.st img{
+    width: 100%;
+    height: 100%;
+}
+
+.st{
+    background-color: blue;
+    grid-column: 1/3;
+}
+
+.nd{
+    background-color: yellow;
+    grid-row: 1/3;
+    grid-column: 3/4;
+}
+
+.nd img{
+    width: 100%;
+    height: 100%;
+}
+
+.rd{
+    background-color: rgb(100, 28, 28);
+}
+
+.rd img{
+    width: 100%;
+    height: 100%;
+}
+
+.th{
+    background-color: green;
+}
+
+.th img{
+    width: 100%;
+    height: 100%;
+}
